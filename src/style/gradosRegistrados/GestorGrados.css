@@ -1,0 +1,41 @@
+.GestorGrados{  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ; 
+    justify-content: center;
+    align-items: center; 
+    height: 10rem;  
+    width: 26rem; 
+    margin: auto;
+   }
+.titulo-gradosRegistrados{
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;   
+    color: rgb(51, 49, 49); 
+    text-shadow: 0 0 0.5em rgb(250, 250, 252), 0 0 058em rgb(243, 243, 245),
+		0 0 0.5em rgb(248, 248, 250);
+    -webkit-text-stroke: 0.2px rgb(252, 249, 249);
+    
+}
+
+@media(min-width: 769px){
+
+.GestorGrados{  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ; 
+    justify-content: center;
+    align-items: center; 
+    height: 10rem;     
+        
+}
+.titulo-gradosRegistrados{
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;   
+    color: rgb(51, 49, 49); 
+       
+}
+
+}

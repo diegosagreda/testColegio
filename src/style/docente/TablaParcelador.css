@@ -1,0 +1,52 @@
+.TablaVerParcelador{     
+    border-radius: 1rem;
+    width: 94%;
+    height: 40rem;
+    overflow: scroll;
+    
+    border: solid 2px rgb(178, 185, 187);    
+
+}
+
+.tabla-parcelador table {   
+    width: 97%; 
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: left; 
+    border-collapse: collapse;
+    
+}
+
+.tabla-parcelador tr, th{
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla-parcelador thead{   
+    background-color: rgb(16, 55, 128);
+    border-bottom: solid 5px #0F362D;
+    color: white;
+    text-align: center;         
+}
+.tabla-parcelador tr:nth-child(even){
+
+}
+
+.tabla-parcelador tr:nth-child(odd){
+    border-bottom: solid 2px gray;
+}
+.parcelador{
+    font-size: 1.3rem;
+    font-weight: 700; 
+}
+.img-parcelador{
+   
+}
+.img-parcelador img{
+   width: 1.6rem;
+   margin: 0.4rem 1rem;
+ }
+.img-parcelador img:hover{
+    transform: scale(1.2, 1.2);
+    cursor: pointer;
+}

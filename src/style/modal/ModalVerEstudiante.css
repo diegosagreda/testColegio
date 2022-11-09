@@ -1,0 +1,118 @@
+.ver-estudiante{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.overlay-none{
+    display: none;
+}
+.contenedor-ver-estudiante{
+    width:100%;
+    height: 60rem;
+    background: #fff;
+    position:relative;
+    border-radius: 5px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+}
+.encab-modal{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.7rem;
+}
+.salir-modal{
+   
+    position: absolute;
+    top: 8px;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    font-weight: 700;  
+    color: gray;
+    border-radius: 50%;
+    border: solid 2px rgb(95, 89, 89); 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-right: 1rem; 
+    transition: .4s ease all;   
+}
+.salir-modal:hover{
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+}
+.filtrar-estudiante{   
+    padding: .8rem;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ .filtrar-estudiante input{   
+    border-radius: 2rem;
+    width: 15rem;
+    height: 2.5rem;
+}
+
+
+/* Datos institucion */
+
+.datos-estudiante{
+   
+    padding: 1.3rem;
+}
+.estudiante-informacion{
+    display: flex;
+    flex-direction: column;
+  
+    font-size: 1.2rem;
+}
+.estudiante-informacion input{
+    border-radius: 2rem;
+    border: solid 2px gray;
+    flex: 3rem;
+    margin-top: -1rem;
+    font-size: 1.8rem;
+    width: 30rem;
+  
+}
+.img-institucion{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    font-size: 1.2rem;    
+}
+.btn-inf-estudiante{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+.btn-inf-estudiante button{
+    border-radius: 2rem;
+    height: 3.3rem;
+    width: 8rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    background-color: rgb(200, 241, 200);
+    transition-duration: 0.3s;
+}
+.btn-inf-estudiante button:hover{
+    background-color: rgb(194, 194, 156);
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}

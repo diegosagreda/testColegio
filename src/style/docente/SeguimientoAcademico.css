@@ -1,0 +1,58 @@
+.SeguimientoAcademico{
+    border: solid 2px black;   
+    display: flex;
+    height: 50rem;
+    flex-direction: column;    
+    align-items: center;    
+    border: solid 2px rgb(194, 191, 191);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+    border-radius: 2rem;  
+   
+}
+.SeguimientoAcademico .academico-header{ 
+    width: 50rem;
+    height: 8rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    
+}
+.academico-header select{
+    width: 15rem;
+    height: 2.2rem;    
+}
+.SeguimientoAcadeemico button{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    width: 10rem; 
+    height: 2.2rem;
+    border-radius: 5rem;
+    border: solid 1px white;
+    transition-duration: 0.5s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);     
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: rgb(30, 85, 30);
+    color: white;   
+}
+.academico-header button:hover{
+    cursor: pointer;
+    background-color: rgb(61, 252, 163);
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.academico-opciones{
+    font-size: 1.3rem;
+    font-weight: 700;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.academico-opciones select{
+    background-color: rgb(201, 201, 219);
+    margin-left: 1rem;
+    border-radius: 1rem;
+    font-weight: 700;
+    border-bottom: 4cm; 
+}
+

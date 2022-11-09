@@ -1,0 +1,44 @@
+
+.Tareas{
+    border: dashed 2px rgb(12, 100, 5);
+    width: 95%;
+    height: 11rem;
+    display: flex;
+    border-radius: 2rem 0;  
+    margin: .9rem;  
+   }
+.Tareas:hover{
+    background-color: rgb(169, 172, 172);
+}
+
+.tarea-hora{
+    flex: 2;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 0.09;
+    color: rgb(13, 92, 13);
+    text-align: end;
+    margin-right: 1rem;  
+  
+}
+
+.tarea-info{
+    flex: 5;
+    line-height: 0.3;
+    font-size: 1.3rem;
+    font-weight: 700; 
+    color: rgb(131, 35, 35); 
+    margin-left: 1rem;   
+}
+.pendientes{    
+    line-height: 1;
+  }
+.tarea-info span{
+    font-weight: normal;
+    letter-spacing: .02cm;
+    color: black;   
+}
+

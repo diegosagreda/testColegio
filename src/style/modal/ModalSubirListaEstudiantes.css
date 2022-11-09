@@ -1,0 +1,32 @@
+.modal-container{
+    width: 40rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.formulario-subirestudiantes h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 0;
+}
+
+.btn-subirestudiantes{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 3rem;
+}
+
+.btn-subirestudiantes button{
+    padding: .5rem 1rem;
+    cursor: pointer;
+    font-weight: 700;
+    border: none;
+    border-radius: .5rem;
+    background-color: rgb(165, 163, 163);
+}
+.btn-subirestudiantes button:hover{
+    transform: scale(1.1,1.1);
+    background-color: rgb(107, 106, 106);
+    color: white;
+}

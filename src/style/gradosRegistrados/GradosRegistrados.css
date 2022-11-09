@@ -1,0 +1,29 @@
+
+.GradosRegistrados{   
+  margin: 0.3rem;
+  display: flex;
+  justify-content: center;  
+}
+.tarea-informacion button{    
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    border: 0ch;
+    width: 6rem;
+    background-color: rgb(66, 71, 71);
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.tarea-informacion button:hover{
+    background-color: rgb(214, 218, 214);
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+    color: black;
+    transition-duration: 0.4s;
+    
+}
+
+

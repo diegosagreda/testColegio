@@ -1,0 +1,25 @@
+
+.Curriculo{
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    margin-top: 2rem;
+    height: 45rem;
+ }
+.vista-curriculo{
+    resize: none;
+}
+.Curriculo label{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.Curriculo input{
+    margin-bottom: 2rem;
+}
+.Curriculo textarea{
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+

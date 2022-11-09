@@ -1,0 +1,62 @@
+.inf-segAcademico{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(0, 0, 0, 1);
+    padding: 20px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    
+}
+.overlay-none{
+    display: none;
+}
+.contenedor-inf-segAcademico{
+    width:100%;
+    height: 100%;
+    background: #fff;
+    position:relative;
+    border-radius: 5px;
+    padding: 1rem; 
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+}
+.titulo-segAcademico{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.7rem;
+
+}
+.salir-modal{   
+    position: absolute;
+    top: 8px;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    font-weight: 700;  
+    color: gray;
+    border-radius: 50%;
+    border: solid 2px rgb(95, 89, 89); 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-right: 1rem; 
+    transition: .4s ease all;   
+}
+.salir-modal:hover{
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+}
+
+/* Datos institucion */
+

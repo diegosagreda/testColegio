@@ -1,0 +1,53 @@
+.TablaVerDesempeño{     
+    border-radius: 1rem;
+    width: 85rem;
+    height: 54rem;
+    overflow: scroll;    
+    border: solid 2px rgb(178, 185, 187);    
+
+}
+
+.tabla-desempeño table {   
+    width: 97%; 
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: left; 
+    border-collapse: collapse;
+    font-size: 1.5rem;
+    font-weight: 700;  
+    
+}
+
+.tabla-desempeño tr, th{
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla-desempeño thead{   
+    background-color: rgb(16, 55, 128);
+    border-bottom: solid 5px #0F362D;
+    color: white;
+    text-align: center;         
+}
+.tabla-desempeño tr:nth-child(even){
+
+}
+
+.tabla-desempeño tr:nth-child(odd){
+    border-bottom: solid 2px gray;
+}
+.ver-curso{
+    font-size: 1.3rem;
+    font-weight: 700; 
+}
+
+.img-desempeño img{
+   width: 1.6rem;
+   margin: 0.4rem 1rem;
+ }
+.img-desempeño img:hover{
+    transform: scale(1.2, 1.2);
+    cursor: pointer;
+}
+
+

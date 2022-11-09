@@ -1,0 +1,98 @@
+.ModalCrearParcelador{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.overlay-none{
+    display: none;
+}
+.contenedor-crearParcelador{
+    width:90rem;
+    height: 62rem;
+    background: rgb(212, 209, 209);
+    position:relative;
+    border-radius: 2rem;
+    padding: 1rem;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+}
+.encab-modal-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.7rem;
+
+}
+.salir-modal{
+   
+    position: absolute;
+    top: 8px;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    font-weight: 700;  
+    color: gray;
+    border-radius: 50%;
+    border: solid 2px rgb(95, 89, 89); 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-right: 1rem; 
+    transition: .4s ease all;   
+}
+.salir-modal:hover{
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+}
+
+/* Datos institucion */
+
+.cur-grad-mat{
+ 
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.cont-parcelador{   
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 1rem;    
+}
+.cont-parcelador label{
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 700;
+}
+.cont-parcelador textarea{
+    resize: none;
+    font-size: 1.4rem;
+}
+.ModalCrearParcelador button{
+    border-radius: 0.5rem;
+    height: 3.3rem;
+    width: 12rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    background-color: rgb(200, 241, 200);
+    transition-duration: 0.3s;
+    margin-top: 2rem;
+}
+.ModalCrearParcelador button:hover{
+    background-color: rgb(194, 194, 156);
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}
+

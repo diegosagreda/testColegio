@@ -1,0 +1,146 @@
+:root{
+    --color-main: #1B1F30;
+}
+.TablaEmpleados{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+}
+.TablaEmpleados .header{
+    display: flex;
+    justify-content: space-around;
+}
+.TablaEmpleados .header h2{
+    font-size: 16px;
+}
+
+.outer-wrapper {
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 4px;
+    width: 96%;
+    min-height:800px;
+}
+.table-wrapper {
+    overflow-y: scroll;
+    height: fit-content;
+    max-height: 66.4vh;
+    margin-top: 22px;
+    margin: 15px;
+    padding-bottom: -100px;
+}
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0px;  
+}
+
+table th{
+    position: sticky; 
+    top: 0px;
+    background-color: var(--color-main);
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    outline: 0.7px solid black;
+    border: 1.5px solid black;
+
+}
+table th:first-child{
+    width: 10px;
+} 
+table th:first-child.info-estudiante{
+    width: 40%;
+} 
+
+table th:nth-child(2){
+    width: 200px;
+}
+table th:last-child.definitiva{
+    background-color: orange;
+    width: 10px;
+}
+
+table th, table td {
+    
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;  
+}
+
+table td {
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid rgb(177, 177, 177);
+    padding-left: 20px;
+    
+}
+tr{
+    font-weight: bold;
+}
+tr:nth-child(even){
+    background-color: #ddd;
+}
+/*Header*/
+.header{
+    border: 1px solid black;
+    padding: 10px;
+}
+.header .info-institucion{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header .info-institucion .acciones{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content:center;
+}
+.header .info-institucion button{
+    background-color:green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 25px;
+    border-radius: 10px;
+    min-width: 150px;
+}
+.header .info-institucion button:hover{
+    background-color: orange;
+    color: black;
+}
+
+.header .info-institucion:first-child img{
+    width: 100px;
+    height: 100px;
+}
+.header .info-seguimiento{
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header .info-seguimiento p{
+
+    font-weight: bold;
+    font-size: 18px;
+}
+.header .info-seguimiento span{
+    font-weight: normal;
+}
+
+
+.header h1,h4{
+    margin: 0;
+}
+td .input{
+    width: 20px;
+}
+
+
+
+
+
+

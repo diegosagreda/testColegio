@@ -1,0 +1,12 @@
+body{
+  /* background: url(../../img/fondo.jpeg);
+  background-size: 100%;    */
+}
+
+.Home_Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    text-align: center;     
+}

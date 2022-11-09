@@ -1,0 +1,23 @@
+.Tabla-VistaPrevia{   
+   height: 50rem;
+  
+    
+}
+.tabla-tr td{   
+    height: 7rem;
+    width: 100%;
+    font-size: 1.7rem;
+   
+}
+.tabla-tr h2{
+    text-align: center;
+}
+
+.tabla-tr img{
+    width: 1.7rem;
+ }
+.tabla-tr img:hover{
+    transform: scale(1.2, 1.2);
+    cursor: pointer;
+}
+
